@@ -22,6 +22,10 @@ shinyUI(pageWithSidebar(
         
         # Show a plot of the generated distribution
         mainPanel(
-                plotOutput("distPlot")
+                plotOutput("distPlot"),
+                h2("About the Distribution"),
+                p("Every year Forbes release a list of billionaires covering the globe."),
+                p(""),
+                p("The above plot allows some exploratory analysis on the age distribution of the list. Please use the widgets to select the year or to adjust the number of observations being plotted.")
         )
 ))
