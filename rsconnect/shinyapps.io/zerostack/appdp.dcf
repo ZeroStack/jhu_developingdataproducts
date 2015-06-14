@@ -1,7 +1,7 @@
 name: appdp
 account: zerostack
 server: shinyapps.io
-bundleId: 202693
+bundleId: 202701
 url:
-    https://zerostack.shinyapps.io/appdp
-when: 1434296608.33634
+   https://zerostack.shinyapps.io/appdp
+when: 1434298090.5155

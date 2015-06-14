@@ -44,7 +44,7 @@ shinyServer(function(input, output, session) {
         
         output$distPlot <- renderPlot({
                 
-                forbes.data <- filter(forbes.data, time == input$year)
+                forbes.data <- filter(forbes.data, time == input$year)[1:input$obs]
                 plot <- ggplot(forbes.data, aes(x = age, y = networthb)) + geom_bar(stat = "identity") + xlab("Age in Years") + ylab("Bn Net Worth (US$)")
                 plot
 #         

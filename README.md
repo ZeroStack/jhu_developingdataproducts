@@ -7,7 +7,7 @@ This is the repository for the Developing Data Products Course by John Hopkins U
 
 ## Main Items
 
-- A shiny app (hosted on shiny.io)[here](https://zerostack.shinyapps.io/appdp)
+- A shiny app (hosted on shiny.io) [Click here](https://zerostack.shinyapps.io/appdp)
 - Reproducible presentation
 
 ## Information Dataset
